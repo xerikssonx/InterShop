@@ -1,0 +1,59 @@
+INSERT INTO `intershop`.`inter_type` (`name`) VALUES ('notebooks');
+INSERT INTO `intershop`.`inter_type` (`name`) VALUES ('phones');
+INSERT INTO `intershop`.`inter_type` (`name`) VALUES ('computers');
+INSERT INTO `intershop`.`inter_type` (`name`) VALUES ('components');
+INSERT INTO `intershop`.`inter_type` (`name`) VALUES ('office equipments');
+INSERT INTO `intershop`.`inter_type` (`name`) VALUES ('softwares');
+
+
+INSERT INTO `intershop`.`inter_subtype` (`name`, `type_id`) VALUES ('notebooks', '1');
+INSERT INTO `intershop`.`inter_subtype` (`name`, `type_id`) VALUES ('bags', '1');
+INSERT INTO `intershop`.`inter_subtype` (`name`, `type_id`) VALUES ('PSUs', '1');
+
+INSERT INTO `intershop`.`inter_subtype` (`name`, `type_id`) VALUES ('smartphones', '2');
+INSERT INTO `intershop`.`inter_subtype` (`name`, `type_id`) VALUES ('mobile phones', '2');
+INSERT INTO `intershop`.`inter_subtype` (`name`, `type_id`) VALUES ('office phones', '2');
+
+INSERT INTO `intershop`.`inter_subtype` (`name`, `type_id`) VALUES ('PCs', '3');
+INSERT INTO `intershop`.`inter_subtype` (`name`, `type_id`) VALUES ('servers', '3');
+INSERT INTO `intershop`.`inter_subtype` (`name`, `type_id`) VALUES ('gaming', '3');
+
+INSERT INTO `intershop`.`inter_subtype` (`name`, `type_id`) VALUES ('processors', '4');
+INSERT INTO `intershop`.`inter_subtype` (`name`, `type_id`) VALUES ('memories', '4');
+INSERT INTO `intershop`.`inter_subtype` (`name`, `type_id`) VALUES ('corps', '4');
+
+INSERT INTO `intershop`.`inter_subtype` (`name`, `type_id`) VALUES ('printers', '5');
+INSERT INTO `intershop`.`inter_subtype` (`name`, `type_id`) VALUES ('scanners', '5');
+INSERT INTO `intershop`.`inter_subtype` (`name`, `type_id`) VALUES ('faxes', '5');
+
+INSERT INTO `intershop`.`inter_subtype` (`name`, `type_id`) VALUES ('games', '6');
+INSERT INTO `intershop`.`inter_subtype` (`name`, `type_id`) VALUES ('operating systems', '6');
+INSERT INTO `intershop`.`inter_subtype` (`name`, `type_id`) VALUES ('antivirus', '6');
+
+
+
+
+INSERT INTO `intershop`.`inter_product` (`description`, `name`, `price`, `store_amount`, `sub_type_id`, `type_id`, `short_description`, `image`) VALUES ('Enjoy the stylish design, just over 1" thin, without compromising power. Perfect for watching movies with a 4th Gen Intel® Core™ i3 processor, Windows 8.1 and a spacious 17.3" HD display.', 'Dell Inspiron 3721', '4444', '12', '1', '1', 'Notebook Dell Inspiron 3721 (I37P45DIL-13) Black Speed Flame Black', '/resources/img/1.jpg');
+INSERT INTO `intershop`.`inter_product` (`description`, `name`, `price`, `store_amount`, `sub_type_id`, `type_id`, `short_description`, `image`) VALUES ('Keep yout notebooks or laptops safe with the comfortable, convenient, and accessable Impulse Full Speed backpack by Sumdex. This fully featured, durable and protective backpack fits most 17.3-inch laptops and netbooks. ', 'Sumdex PON-377BK', '498', '21', '2', '1', 'Sumdex PON-377BK Full Speed Flame Black 17.3-inch Laptop Backpack', '/resources/img/2.jpg');
+INSERT INTO `intershop`.`inter_product` (`description`, `name`, `price`, `store_amount`, `sub_type_id`, `type_id`, `short_description`, `image`) VALUES ('ADAPTER 90W CHARGER TOSHIBA SATELLITE U305-SP5017 U305-SP5028 U305-SP5037', 'Grand-X SP-90U', '287', '42', '3', '1', 'ADAPTER 90W CHARGER TOSHIBA SATELLITE All systems include a 1-yea', '/resources/img/3.jpg');
+
+INSERT INTO `intershop`.`inter_product` (`description`, `name`, `price`, `store_amount`, `sub_type_id`, `type_id`, `short_description`, `image`) VALUES ('SPECIFICATIONS OF HTC ONE MINI (SILVER) GENERAL FEATURES Brand	HTC Model ID	htc one mini 601e Form	Bar SIM Size	Micro SIM SIM Type	Single SIM, GSM Touch Screen	Yes', 'HTC 601n One', '1232', '21', '4', '2', 'HTC 601n One mini Glacial Silver (4718487633890) UACRF  With Integrated', '/resources/img/4.jpg');
+INSERT INTO `intershop`.`inter_product` (`description`, `name`, `price`, `store_amount`, `sub_type_id`, `type_id`, `short_description`, `image`) VALUES ('SPECIFICATIONS OF Fly ONE MINI (SILVER) GENERAL FEATURES Brand	Fly Model ID	Fly one mini 601e Form	Bar SIM Size	Micro SIM SIM Type	Single SIM, GSM Touch Screen	Yes', 'Fly IQ4412 Coral', '1231', '22', '5', '2', 'Good condition Fly IQ4412 Coral - black phone With Integrated', '/resources/img/5.jpg');
+INSERT INTO `intershop`.`inter_product` (`description`, `name`, `price`, `store_amount`, `sub_type_id`, `type_id`, `short_description`, `image`) VALUES ('The Panasonic KX-TG 5521 is a handsome addition to the new premium quality range of Panasonic cordless DECT phones.  This eye-catching, contemporary home phone features ', 'Panasonic KX-TG 5521', '233', '11', '6', '2', ' Cordless phone With Integrated Answering Machine 3770k 3.5GHz 4Core', '/resources/img/6.jpg');
+
+INSERT INTO `intershop`.`inter_product` (`description`, `name`, `price`, `store_amount`, `sub_type_id`, `type_id`, `short_description`, `image`) VALUES ('This package includes the INVINCIBLE Series C gaming desktop PC, power cord, keyboard, mouse, gaming headset and manual. All systems include a 1-year limited warranty', 'INVINCIBLE Series C', '3212', '21', '7', '3', 'INVINCIBLE (Series C) by My Extreme Gaming PC - Gaming Desktop PC', '/resources/img/7.jpg');
+INSERT INTO `intershop`.`inter_product` (`description`, `name`, `price`, `store_amount`, `sub_type_id`, `type_id`, `short_description`, `image`) VALUES ('Impression SERVER PIV2.26GHZ/2GB MEMORY/80GB IDE HARD DISK/32 BIT', 'Impression Web Server', '5332', '12', '8', '3', 'Impression SERVER PIV2.26GHZ FM2 Quad-Core A8-6600K INVINCIBLE breaks', '/resources/img/8.jpg');
+INSERT INTO `intershop`.`inter_product` (`description`, `name`, `price`, `store_amount`, `sub_type_id`, `type_id`, `short_description`, `image`) VALUES ('INVINCIBLE was born to counter the black and beige box image of desktop PCs. Instead of obeying the standard desktop form factors and conventions, INVINCIBLE breaks', 'INVINCIBLE Series B', '3222', '9', '9', '3', 'Processor: AMD 3.9 GHz FM2 Quad-Core A8-6600K Processor 3770k 3.5GHz 4Core', '/resources/img/9.jpg');
+
+INSERT INTO `intershop`.`inter_product` (`description`, `name`, `price`, `store_amount`, `sub_type_id`, `type_id`, `short_description`, `image`) VALUES ('Graphics Max Dynamic Frequency - 1.15 GHz, Intel Quick Sync Video, Intel InTru 3D Technology, Intel Insider, Intel Wireless Display, Intel Flexible Display Interface', 'Intel Core i3-3250', '422', '21', '10', '4', 'Intel I7 3770k 3.5GHz 4Core 8 Threads Excellent Price FM2 Quad-Core A8-6600K', '/resources/img/10.jpg');
+INSERT INTO `intershop`.`inter_product` (`description`, `name`, `price`, `store_amount`, `sub_type_id`, `type_id`, `short_description`, `image`) VALUES ('Kingston DDR3-1600 8192MB PC3-12800 (Kit of 2x4096) HyperX KHX1600C9D3B1K2/8GX', 'Kingston DDR3-1600', '100', '24', '11', '4', 'Kingston DDR3-1600 8192MB PC3-12800 INVINCIBLE breaks 26GHZ FM2 Quad-Core ', '/resources/img/11.jpg');
+INSERT INTO `intershop`.`inter_product` (`description`, `name`, `price`, `store_amount`, `sub_type_id`, `type_id`, `short_description`, `image`) VALUES ('Chieftec iArena CQ-01B-500GPA 500W', 'Chieftec iArena', '145', '14', '12', '4', 'Chieftec iArena CQ-01B-500GPA 500W regular prints on photo paper too', '/resources/img/12.jpg');
+
+INSERT INTO `intershop`.`inter_product` (`description`, `name`, `price`, `store_amount`, `sub_type_id`, `type_id`, `short_description`, `image`) VALUES ('This product has 12 months manufacturer Warranty, it means that u dont have to send to us for any service / repair related issues, you can go to any service ', 'Samsung SCX-4650N', '122', '24', '13', '5', 'SAMSUNG LASER MULTIFUNCTION PRINTER SCX-3401  Scanner, DVD Labeler ', '/resources/img/13.jpg');
+INSERT INTO `intershop`.`inter_product` (`description`, `name`, `price`, `store_amount`, `sub_type_id`, `type_id`, `short_description`, `image`) VALUES ('Bought this printer solely to do DVD printing. Prints exceptionally well on the complete disk area. Printed a few regular prints on photo paper too ', 'Epson Perfection', '211', '21', '14', '5', 'Epson TX720WD All in One Printer, Scanner, DVD Labeler MULTIFUNCTION PRINTER', '/resources/img/14.jpg');
+INSERT INTO `intershop`.`inter_product` (`description`, `name`, `price`, `store_amount`, `sub_type_id`, `type_id`, `short_description`, `image`) VALUES (' Officejet 7610 Wide Format e-AIO PrinterA3 Size Print,Scan,Copy,Fax,Web,Wi-Fi', 'Brother FAXT106R', '232', '22', '15', '5', 'Officejet 7610 Wide Format e-AIO MULTIFUNCTION PRINTER n One Printer', '/resources/img/15.jpg');
+
+INSERT INTO `intershop`.`inter_product` (`description`, `name`, `price`, `store_amount`, `sub_type_id`, `type_id`, `short_description`, `image`) VALUES ('In the Caribbean, stands the young and rebellious Captain Edward Kenway, whose exploits earn the respect of legendary names like Blackbeard.', 'Assassin`s Creed IV', '12', '57', '16', '6', 'Assassin`s Creed IV: Black Flag Skull Edition PS3', '/resources/img/16.jpg');
+INSERT INTO `intershop`.`inter_product` (`description`, `name`, `price`, `store_amount`, `sub_type_id`, `type_id`, `short_description`, `image`) VALUES ('Microsoft introduced an operating environment named Windows on November 20, 1985 as a graphical operating system shell for MS-DOS in response to the growing interest in graphical user interfaces GUIs.', 'Windows 8.1', '100', '12', '17', '6', 'Windows 8.1 32-bit/64-bit English DVD BOX pace 2  9 box', '/resources/img/17.jpg');
+INSERT INTO `intershop`.`inter_product` (`description`, `name`, `price`, `store_amount`, `sub_type_id`, `type_id`, `short_description`, `image`) VALUES ('The software also offers anti-spam solutions and is used by Yandex, Russis biggest search provider, to scan e-mail attachments.[3] There is also an add-on for Firefox which checks links', 'Dr. Web', '99', '41', '18', '6', 'Dr. Web Security Space 2  9 box 32-bit/64-bit English DVD', '/resources/img/18.jpg');
+

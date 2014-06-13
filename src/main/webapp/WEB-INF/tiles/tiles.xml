@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE  tiles-definitions  PUBLIC  "-//Apache  Software  Foundation//DTD  Tiles
+Configuration 2.0//EN" "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	<definition name="baseLayout" template="/WEB-INF/views/jsp/layout/layout.jsp">
+		<put-attribute name="title" value="Spring 3 MVC Apache Tiles 2" />
+		<put-attribute name="header"
+			value="/WEB-INF/views/jsp/layout/header.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer"
+			value="/WEB-INF/views/jsp/layout/footer.jsp" />
+	</definition>
+
+	<definition name="home" extends="baseLayout">
+		<put-attribute name="title" value="Home page" />
+		<put-attribute name="body" value="/WEB-INF/views/jsp/home.jsp" />
+	</definition>
+
+
+
+	<definition name="details" extends="baseLayout">
+		<put-attribute name="title" value="Registration page" />
+		<put-attribute name="body" value="/WEB-INF/views/jsp/details.jsp" />
+	</definition>
+
+	<definition name="basket" extends="baseLayout">
+		<put-attribute name="title" value="Registration page" />
+		<put-attribute name="body" value="/WEB-INF/views/jsp/basket.jsp" />
+	</definition>
+
+	<definition name="buy" extends="baseLayout">
+		<put-attribute name="title" value="Registration page" />
+		<put-attribute name="body" value="/WEB-INF/views/jsp/buy.jsp" />
+	</definition>
+
+
+	<definition name="purchase" extends="baseLayout">
+		<put-attribute name="title" value="Registration page" />
+		<put-attribute name="body" value="/WEB-INF/views/jsp/purchase.jsp" />
+	</definition>
+	
+	<definition name="resault" extends="baseLayout">
+		<put-attribute name="title" value="Registration page" />
+		<put-attribute name="body" value="/WEB-INF/views/jsp/resault.jsp" />
+	</definition>
+
+</tiles-definitions>
