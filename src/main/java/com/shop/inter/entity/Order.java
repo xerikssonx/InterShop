@@ -58,11 +58,7 @@ public class Order {
 	@Enumerated(EnumType.STRING)
 	private DeliveryType deliveryType;
 
-	// @ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-	// @JoinTable(name = "inter_OrderToBasket", joinColumns = { @JoinColumn(name
-	// = "order_id") }, inverseJoinColumns = { @JoinColumn(name = "basket_id")
-	// })
-	// private Set<Basket> baskets;
+
 
 	@ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
 	@JoinTable(name = "inter_OrderToProduct", joinColumns = { @JoinColumn(name = "order_id") }, inverseJoinColumns = { @JoinColumn(name = "product_id") })
