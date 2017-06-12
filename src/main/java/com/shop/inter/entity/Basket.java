@@ -44,12 +44,6 @@ public class Basket {
 	@JoinColumn(name = "user_id")
 	private User user;
 
-	// @ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-	// @JoinTable(name = "inter_OrderToBasket", joinColumns = { @JoinColumn(name
-	// = "basket_id") }, inverseJoinColumns = { @JoinColumn(name = "order_id")
-	// })
-	// private Set<Order> orders;
-
 	public Integer getAmount() {
 		return amount;
 	}
